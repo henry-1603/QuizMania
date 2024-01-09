@@ -52,7 +52,6 @@ class Question extends Connection
         
         if (mysqli_num_rows($result) > 0) {
             $number = 1;
-            $num = 12;
     
             while ($row = mysqli_fetch_assoc($result)) {
                 $options = "";
